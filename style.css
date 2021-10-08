@@ -272,7 +272,7 @@ nav a:hover {
 
 .course-cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   place-items: center;
   gap: 20px;
 }
@@ -283,7 +283,8 @@ nav a:hover {
   border-radius: 7px;
   overflow: hidden;
   transition: transform 0.25s linear;
-  border: 2px solid rgba(207, 207, 207, 0.212);
+  /* border: 2px solid rgba(207, 207, 207, 0.212); */
+  /* border: 2px solid #008000; */
 }
 
 .course-cards .course-card:hover {
