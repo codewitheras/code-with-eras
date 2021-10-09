@@ -70,11 +70,11 @@
   padding: 0 100px;
   /* background-color: rgba(189, 189, 189, 0.363); */
   /* border: 2px solid green; */
-  height: 100vh;
+  height: 120vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 180px;
+  margin-bottom: 400px;
   /* background-color: red; */
 }
 
@@ -158,19 +158,19 @@
   flex-direction: column;
   width: 100%;
   padding: 5px 10px;
-  background-color: rgba(233, 233, 233, 0.103);
+  background-color: rgba(241, 241, 241, 0.027);
   margin-bottom: 10px;
   border-bottom: 1px solid rgba(228, 228, 228, 0.555);
   /* padding-bottom: 20px; */
 }
 
 .course-preview details:hover {
-  background-color: rgba(236, 236, 236, 0.363);
+  /* background-color: rgb(255, 255, 255); */
   border-radius: 5px;
-  box-shadow: -0px 1px 15px rgba(228, 228, 228, 0.555);
+  box-shadow: -0px 5px 15px rgba(216, 216, 216, 0.24);
 }
 
-.course-preview details:nth-child(11) {
+.course-preview details:last-child {
   border-bottom: 0;
   /* background-color: red; */
 }
