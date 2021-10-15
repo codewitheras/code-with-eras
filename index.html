@@ -6,19 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CodeWithEras | Online Coding Platform</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="responsiveness.css" /> -->
+    <!-- <link rel="stylesheet" href="font awesome/css/all.min.css" /> -->
   </head>
   <body>
     <!-- header -->
     <header>
-      <div class="logo">
-        <a href="index.html">Codewitheras</a>
+      <div class="header__container">
+        <div class="logo">
+          <a href="index.html">Codewitheras</a>
+        </div>
+        <nav id="menu">
+          <a href="about_us.html">About us</a>
+          <a href="coursePages/courses.html">All Courses</a>
+          <a href="testpage.html">Test page</a>
+          <!-- <a href="coursePages/courses.html">Project Based Courses</a> -->
+          <a href="/auth/signup.html">Log in/Sign up</a>
+        </nav>
+        <!-- <div class="toggle">
+        <button class="toggle-btn" id="toggle-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div> -->
       </div>
-      <nav>
-        <a href="about_us.html">About us</a>
-        <a href="coursePages/courses.html">All Courses</a>
-        <!-- <a href="coursePages/courses.html">Project Based Courses</a> -->
-        <a href="/auth/signup.html">Log in/Sign up</a>
-      </nav>
     </header>
 
     <!-- banner -->
@@ -288,6 +298,7 @@
       </div>
     </section>
 
+    <script type="module" src="/js/app.js"></script>
     <script src="/coursePages/coursesApi.js"></script>
   </body>
 </html>
