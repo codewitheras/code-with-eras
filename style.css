@@ -21,6 +21,14 @@ body {
   background-color: rgba(235, 235, 235, 0);
 }
 
+.center {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* header */
 header {
   display: flex;
